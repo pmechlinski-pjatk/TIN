@@ -1,0 +1,128 @@
+/*body {
+  background-image: url(https://www.collinsdictionary.com/images/full/savanna_374900980.jpg);
+  background-size: cover;
+}*/
+
+h1 {
+  color: black;
+  font-size: 250%;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: block;
+  float: left;
+  width: 10%;
+  border-style: solid;
+  border-width: thin;
+  border-color: gray;
+
+}
+
+.main {
+  display: block;
+  height: 700px;
+  width: 96%;
+  margin: 2%;
+}
+
+.menu {
+  background-color: gray;
+  display: block;
+  float: left;
+  flex: 50%;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+
+.sublist {
+  display: block;
+}
+
+
+
+.article {
+  padding: 1%;
+  display: block;
+  height: 600px;
+  flex: 50%;
+}
+
+.footer {
+  position: block;
+  bottom: 0;
+  width: 100%;
+  align-self: center;
+  flex: 100%;
+  clear: both;
+  color: white;
+  text-align: center;
+}
+
+input {
+  display: flex;
+  width: 20%;
+  flex: 20%;
+  float: left;
+}
+
+table, th, td {
+  border-style: solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+}
+th,td {
+  padding: 2%;
+}
+
+thead {
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(even){background-color: gray;}
+
+.submit_block {
+  display: block;
+  width: 40%;
+  float: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: gray;
+}
+.submit_block2 {
+  display: block;
+  width: 40%;
+  float: right;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: gray;
+}
+
+input {
+  margin-top: 1%;
+  padding-bottom: 1%;
+}
+
+li {
+  display: inline;
+}
